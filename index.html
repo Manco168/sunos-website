@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunos - AI音乐制作</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            color: white;
+            padding: 60px 0;
+        }
+        .header h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .header p {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            opacity: 0.9;
+        }
+        .download-btn {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: 20px 10px;
+            transition: transform 0.3s ease;
+        }
+        .download-btn:hover {
+            transform: translateY(-3px);
+        }
+        .features {
+            background: white;
+            padding: 80px 0;
+            margin: 40px 0;
+            border-radius: 20px;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            padding: 0 40px;
+        }
+        .feature-card {
+            text-align: center;
+            padding: 30px;
+            border-radius: 15px;
+            background: #f8f9fa;
+            transition: transform 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .feature-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        .demo-section {
+            background: #f8f9fa;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .demo-video {
+            max-width: 600px;
+            margin: 40px auto;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+        }
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎵 Sunos</h1>
+            <p>AI音乐制作 - 让AI为您创作专属音乐</p>
+            <p>革命性的AI音乐创作应用，让每个人都能轻松制作专业级音乐</p>
+            
+            <a href="#" class="download-btn">📱 立即下载</a>
+            <a href="support.html" class="download-btn">❓ 技术支持</a>
+        </div>
+        
+        <div class="features">
+            <h2 style="text-align: center; color: #667eea; margin-bottom: 50px; font-size: 2.5rem;">✨ 核心功能</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>AI智能生成</h3>
+                    <p>输入中文描述，AI为您创作专属音乐。支持各种风格和情绪，从流行到古典，从轻松到激昂。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎼</div>
+                    <h3>专业音质</h3>
+                    <p>高质量音频输出，专业级音乐制作。每首音乐都经过精心调校，确保最佳听觉体验。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>智能同步</h3>
+                    <p>精确的歌词显示，支持手动调整。让歌词与音乐完美同步，享受沉浸式音乐体验。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">☁️</div>
+                    <h3>云端存储</h3>
+                    <p>自动同步到云端，随时随地访问您的音乐作品。会员专享无限存储空间。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>个性化定制</h3>
+                    <p>根据您的喜好调整音乐风格，支持多种音乐类型和乐器组合，创造独特的音乐作品。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>快速创作</h3>
+                    <p>几分钟内完成专业音乐制作，无需音乐基础。让创作变得简单而有趣。</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="demo-section">
+            <h2 style="color: #667eea; margin-bottom: 30px;">🎬 应用演示</h2>
+            <p style="font-size: 1.2rem; color: #666; margin-bottom: 40px;">观看Sunos如何让AI为您创作专属音乐</p>
+            
+            <div class="demo-video">
+                <div style="background: #667eea; color: white; padding: 60px; text-align: center;">
+                    <h3>📹 演示视频</h3>
+                    <p>这里将展示Sunos的核心功能演示</p>
+                    <p style="font-size: 0.9rem; opacity: 0.8;">视频内容：音乐生成流程、界面操作、功能展示</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="features">
+            <h2 style="text-align: center; color: #667eea; margin-bottom: 50px; font-size: 2.5rem;">🎯 适用场景</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎵</div>
+                    <h3>音乐爱好者</h3>
+                    <p>探索各种音乐风格，创作属于自己的音乐作品，享受音乐创作的乐趣。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📹</div>
+                    <h3>内容创作者</h3>
+                    <p>为视频、播客等内容创作专属配乐，提升内容质量和吸引力。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎓</div>
+                    <h3>音乐学习</h3>
+                    <p>学习音乐制作，了解不同音乐风格，培养音乐创作能力。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">😌</div>
+                    <h3>放松娱乐</h3>
+                    <p>创作轻松愉快的音乐，用于放松、冥想或日常娱乐。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container">
+            <h3>🎵 Sunos - AI音乐制作</h3>
+            <p>让AI为您创作专属音乐</p>
+            
+            <div style="margin: 30px 0;">
+                <a href="support.html">技术支持</a>
+                <a href="privacy.html">隐私政策</a>
+                <a href="mailto:contact@sunos-music.com">联系我们</a>
+            </div>
+            
+            <p style="margin-top: 30px; opacity: 0.7;">
+                © 2024 Sunos. 让AI为您创作专属音乐
+            </p>
+        </div>
+    </div>
+</body>
+</html>
