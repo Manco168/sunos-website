@@ -1,0 +1,13 @@
+# GitHub Pages Jekyll 配置
+# 禁用默认主题，避免显示仓库名称
+theme: null
+
+# 站点标题
+title: "扫描识文 隐私政策"
+
+# 站点描述
+description: "扫描识文应用的隐私政策"
+
+# 排除文件（不通过Jekyll处理）
+exclude:
+  - README.md
