@@ -1,134 +1,130 @@
----
-layout: default
-title: 扫描识文 隐私政策
----
+# Scan Recognize Privacy Policy
 
-# 扫描识文 隐私政策
+## Last Updated: January 2026
 
-## 最后更新：2026年1月
+Scan Recognize ("we", "us", "the App") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect your information.
 
-扫描识文（"我们"、"应用"）致力于保护您的隐私。本隐私政策说明了我们如何收集、使用和保护您的信息。
+## 🔒 Core Privacy Commitment
 
-## 🔒 核心隐私承诺
+**Scan Recognize is a completely local-first OCR recognition tool. By default, your images, PDF documents, and recognition results are not uploaded to any server.**
 
-**扫描识文 是一款完全本地优先的 OCR 识别工具。默认情况下，您的图片、PDF 文档和识别结果都不会上传到服务器。**
+## 📱 Data Collection and Use
 
-## 📱 数据收集和使用
+### 1. Images and PDF Documents
 
-### 1. 图片和 PDF 文档
+- **Collection Method**: You actively select images or PDF files
+- **Processing Method**: **Completely processed on your local device**
+- **Storage Location**: Stored only on your local device
+- **Server Upload**: **Not uploaded by default**
 
-- **收集方式**：您主动选择图片或 PDF 文件
-- **处理方式**：**完全在本地设备处理**
-- **存储位置**：仅存储在您的设备本地
-- **上传服务器**：**默认不上传**
+### 2. Recognition Results
 
-### 2. 识别结果
+- **Storage Location**: Stored only on your local device
+- **Server Upload**: **Not uploaded by default**
+- **Sharing**: Only shared when you actively choose to share, sent through system sharing features
 
-- **存储位置**：仅存储在您的设备本地
-- **上传服务器**：**默认不上传**
-- **分享**：仅在您主动选择分享时，通过系统分享功能发送
+### 3. Usage Statistics (Optional, for app improvement only)
 
-### 3. 使用统计（可选，仅用于改进应用）
+If you enable anonymous usage statistics, we may collect the following information:
 
-如果您启用了匿名使用统计，我们可能收集以下信息：
+- **Device Information**: Device model, operating system version
+- **Usage Data**: Feature usage frequency, number of pages recognized, recognition success rate
+- **Performance Data**: Recognition speed, memory usage
+- **We Do NOT Collect**: Your image content, PDF content, recognized text content, personally identifiable information
 
-- **设备信息**：设备型号、操作系统版本
-- **使用情况**：功能使用频率、识别页数、识别成功率
-- **性能数据**：识别速度、内存使用情况
-- **不收集**：您的图片内容、PDF 内容、识别文本内容、个人身份信息
+**Purpose**:
+- Improve recognition accuracy
+- Optimize app performance
+- Fix bugs
+- Understand feature usage
 
-**用途**：
-- 改进识别准确率
-- 优化应用性能
-- 修复 Bug
-- 了解功能使用情况
+**You can turn off statistics at any time in Settings.**
 
-**您可以随时在设置中关闭统计功能。**
+### 4. In-App Purchases (IAP)
 
-### 4. 应用内购买（IAP）
+- **Processor**: Apple StoreKit
+- **Data Collection**: Only through Apple's standard purchase process
+- **What We Collect**: Purchase status (stored locally, for feature unlocking)
+- **Payment Information**: Completely handled by Apple, we do not collect any payment information
 
-- **处理方**：Apple StoreKit
-- **数据收集**：仅通过 Apple 的标准购买流程
-- **我们收集**：购买状态（本地存储，用于功能解锁）
-- **支付信息**：完全由 Apple 处理，我们不收集任何支付信息
+## 🔐 Permission Usage
 
-## 🔐 权限使用说明
+### Camera Permission
 
-### 相机权限
+- **Purpose**: Take photos of documents or images for OCR recognition
+- **When Used**: Only when you actively tap the "Camera" button
+- **Data Storage**: Photos taken are stored only on your local device
+- **Upload**: Photos are not uploaded
 
-- **用途**：拍摄文档或图片进行 OCR 识别
-- **使用时机**：仅在您主动点击"拍照"按钮时使用
-- **数据存储**：拍摄的照片仅存储在您的设备本地
-- **上传**：不上传拍摄的照片
+### Photo Library Permission
 
-### 相册权限
+- **Purpose**:
+  1. Select images for OCR recognition
+  2. Save recognition results or export files (if needed)
+- **When Used**: Only when you actively select photos or save files
+- **Data Access**: The app only accesses photos you explicitly select
+- **Upload**: Photos from your library are not uploaded
 
-- **用途**：
-  1. 选择图片进行 OCR 识别
-  2. 保存识别结果或导出文件（如需要）
-- **使用时机**：仅在您主动选择照片或保存文件时使用
-- **数据访问**：应用仅访问您明确选择的照片
-- **上传**：不上传相册中的照片
+### File Access Permission
 
-### 文件访问权限
+- **Purpose**: Select PDF files for OCR recognition
+- **When Used**: Only when you actively select PDF files
+- **Data Access**: The app only accesses files you explicitly select
+- **Upload**: PDF files are not uploaded
 
-- **用途**：选择 PDF 文件进行 OCR 识别
-- **使用时机**：仅在您主动选择 PDF 文件时使用
-- **数据访问**：应用仅访问您明确选择的文件
-- **上传**：不上传 PDF 文件
+## 📊 Data Storage
 
-## 📊 数据存储
+### Local Storage
 
-### 本地存储
+- **Recognition Results**: Stored in app sandbox directory
+- **Settings Data**: Stored in UserDefaults (local)
+- **Cache Data**: Temporary files that can be cleared at any time
 
-- **识别结果**：存储在应用沙盒目录
-- **设置数据**：存储在 UserDefaults（本地）
-- **缓存数据**：临时文件，可随时清除
+### Cloud Storage
 
-### 云存储
+- **Default**: We do not use any cloud storage services
+- **iCloud Sync**: Not supported (all data is stored locally only)
 
-- **默认**：不使用任何云存储服务
-- **iCloud 同步**：不支持（所有数据仅本地存储）
+## 🔄 Data Sharing
 
-## 🔄 数据分享
+### We Do NOT Share
 
-### 不会分享
+We **do not**:
+- Share your images, PDFs, or recognition results with third parties
+- Use your data for advertising purposes
+- Use your data to train AI models (unless you explicitly consent)
+- Sell your data
 
-我们**不会**：
-- 将您的图片、PDF 或识别结果分享给第三方
-- 将您的数据用于广告目的
-- 将您的数据用于训练 AI 模型（除非您明确同意）
-- 出售您的数据
+### Sharing Only When You Actively Choose
 
-### 仅在您主动操作时分享
+The following occurs only with your explicit action:
+- **System Sharing**: You share recognition results through system sharing features (e.g., AirDrop, email)
+- **Export Files**: You export files to other apps (e.g., Files app, email)
 
-以下情况会在您的明确操作下发生：
-- **系统分享**：您通过系统分享功能（如 AirDrop、邮件）分享识别结果
-- **导出文件**：您导出文件到其他应用（如文件 App、邮件）
+## 🛡️ Data Security
 
-## 🛡️ 数据安全
+- **Encryption**: App data transmission uses HTTPS (if there are network requests)
+- **Local Processing**: All OCR recognition is completed locally, reducing data breach risks
+- **Minimum Permissions**: We only request necessary permissions
 
-- **加密**：应用数据传输使用 HTTPS（如有网络请求）
-- **本地处理**：所有 OCR 识别在本地完成，减少数据泄露风险
-- **最小权限**：仅请求必要的权限
+## 📧 Contact Us
 
-## 📧 联系我们
+If you have any questions about this Privacy Policy, please contact us:
 
-如果您对本隐私政策有任何问题，请联系我们：
-
+- **Email**: support@quantkoo.com
 - **GitHub**: https://github.com/Manco168
 
-## 🔄 隐私政策更新
+## 🔄 Privacy Policy Updates
 
-我们可能会不定期更新本隐私政策。重大变更会在应用内通知您。继续使用应用即表示您接受更新后的隐私政策。
+We may update this Privacy Policy from time to time. Significant changes will be notified within the app. Continued use of the app indicates your acceptance of the updated Privacy Policy.
 
-## ✅ 您的权利
+## ✅ Your Rights
 
-- **数据访问**：您可以随时查看应用存储的本地数据
-- **数据删除**：卸载应用即可删除所有本地数据
-- **权限管理**：您可以在系统设置中随时管理应用权限
-- **统计关闭**：您可以在应用设置中关闭使用统计
+- **Data Access**: You can view locally stored app data at any time
+- **Data Deletion**: Uninstalling the app will delete all local data
+- **Permission Management**: You can manage app permissions at any time in system settings
+- **Disable Statistics**: You can turn off usage statistics in app settings
 
 ---
 
-**重要提醒**：扫描识文 是一款本地优先的工具，默认不上传您的数据。我们承诺保护您的隐私和数据安全。
+**Important Reminder**: Scan Recognize is a local-first tool that does not upload your data by default. We are committed to protecting your privacy and data security.
